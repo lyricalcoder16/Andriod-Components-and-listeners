@@ -41,25 +41,28 @@
         android:text="Switch" />
 
     <RadioGroup
+        android:orientation="horizontal"
         android:id="@+id/groupGender"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
         <RadioButton
+            android:layout_marginRight="20dp"
             android:id="@+id/radioButtonFemale"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Female" />
 
         <RadioButton
+            android:layout_marginRight="20dp"
             android:id="@+id/radioButtonMale"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Male" />
 
         <RadioButton
             android:id="@+id/radioButtonTrans"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Transgender" />
     </RadioGroup>
