@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imgHat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imghat"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@android:string/defaultMsisdnAlphaTag"
+        app:srcCompat="@drawable/kimmiecla" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFootball"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="football" />
+
+    <CheckBox
+        android:id="@+id/checkBoxRugby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rugby" />
+
+    <ToggleButton
+        android:id="@+id/Off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+
+    <Switch
+        android:id="@+id/SwitchDarkmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <RadioGroup
+        android:id="@+id/groupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTrans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transgender" />
+    </RadioGroup>
+</LinearLayout>
